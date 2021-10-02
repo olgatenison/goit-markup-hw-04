@@ -143,10 +143,21 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-
-.header-contacts-link:hover,
-.header-contacts-link:focus {
+.header-contacts-item{
+    display: flex;
+    align-items: center; 
+}
+.header-contacts-item:hover,
+.header-contacts-item:focus {
     color: var(--accent-color);
+}
+
+.header-icon  {
+    fill: currentColor;
+    margin-right: 10px;
+}
+.header-contacts-link{
+    color: currentColor;
 }
 
 /*------------hero-------------*/
