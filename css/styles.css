@@ -147,6 +147,7 @@ body {
 .header-contacts-item{
     display: flex;
     align-items: center; 
+    color: var(--secondary-text-color);
 }
 .header-contacts-item:hover,
 .header-contacts-item:focus {
@@ -463,9 +464,9 @@ body {
     max-width: 370px;
     display:block;
 }
-.portfolio-product-item:hover,
-.portfolio-product-item:focus, 
-.portfolio-product-item:active{
+.portfolio-link:hover,
+.portfolio-link:focus, 
+.portfolio-link:active{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);;
 }
 .product-content{
